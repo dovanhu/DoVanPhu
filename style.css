@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.contaner    {
+    width: 980px;
+    margin: 0 auto;
+}
+.logo   {
+    margin: 0 auto;
+    text-align: center;
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li  
+{
+    margin: 20px;
+}
+nav li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.active {
+    text-decoration: underline ;
+}
+.postcontent {
+    display: flex;
+    align-items: center;
+    
+}
+.postdetail {
+    display: block;
+    text-align: center;
+}
+.decrip {
+    margin: 10px;
+}
+.trip {
+    display: flex;
+}
+.trip1 {
+    margin: 0px 10px;
+    width: 32%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.detai {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: #fff;
+    border: none; 
+    transform: translateY(100%);
+}
+.trip1:hover .detai{
+    transform: translateY(0%);  
+    transition: 0.8s; 
+}
+.button {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;    
+    margin-top: 10px;
+}
+.h3 {
+    margin: 10px;
+}
+.content {
+    margin-top: 26px;
+}
+.post {
+    margin: 18px ;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #021a34;
+    margin: 20px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 12px;
+}
+.info {
+    justify-content: right;
+}
+.Button {
+    border: none;
+    background-color: orange;                           ;
+    color: white;
+    font-size: 16PX;
+    padding: 8px 12px;
+    align-items: center;
+}
+.decrip {
+    margin: 12px 0px;
+}
+.email {
+    background-color: orange;
+    color: white;
+   font-size: 16px;
+    padding: 8px 12px;
+    border: 0px;
+}
+
